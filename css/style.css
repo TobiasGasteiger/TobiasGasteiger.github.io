@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+
+
+p, h3 {
+    color: #f2f2f2;
+    padding: 5px;
+}
+
+h2 {
+    color: #f2f2f2;
+    margin: 5px;
+    font-weight: bolder;
+}
+
+.navbar {
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C1C1C;
+    color: #f2f2f2;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        background-color: #222222;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+.home{
+    background-color: #262520;
+    position: relative;    
+    width: 100%;
+}
+
+.home_logo_background {
+    position: relative;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 1500px;
+    max-height: 950px;
+    width: 100%; 
+}
+
+.home_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: auto;
+    max-width: 700px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.caption {
+  color: #f2f2f2;
+  font-weight: lighter;
+ padding-bottom: 15px;
+  text-align: center;
+}
+
+.welcometext {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    background-color: #A6886D;
+    padding:15px;
+}
+
+
+
+.works {
+    background-color: #262520;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.projects {
+    box-sizing:border-box;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.slideshow-container {
+  position: relative;
+  margin: 10px;
+  flex: 1 0 250px;
+  max-width: 350px;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.slideshow-container .projectdesc {
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.219);
+  color: #f2f2f2;
+  width: 100%;
+}
+
+.dots {   
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 10px;
+    background-color: transparent;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #bbb;
+}
+
+.about{
+    padding-top: 15px;;
+    background-color: #A6886D;
+}
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile { 
+    max-width: 225px;
+    min-width: 150px;
+    flex: 0 1 150px; 
+    margin: 15px;
+}
+
+.profilepic {
+    max-width: 100%;
+    height: auto; 
+}
+
+.presentation {
+    flex: 1 0 380px;
+    padding: 15px;
+}
+
+@media (max-width: 560px) {
+    .presentation{
+        text-align: center;
+    }
+}
+
+.contact {
+    padding: 15px;
+}
+.footer {
+    background-color: #1C1C1C;
+    text-align: center;
+}
+
+p.footer {
+    color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
