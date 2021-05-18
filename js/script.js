@@ -1,9 +1,12 @@
+//Navbar
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
+
+//Slides
 var activeSlide = new Array(3);
 var slideId = ["malerSlides","harzSlides", "dekoSlides", "sonstigeSlides"];
 
@@ -30,3 +33,4 @@ function showSlides(slidenummer, slidename)  {
 function plusSlides(n, slidename) {
   showSlides(activeSlide[slidename]+n, slidename);
 }
+

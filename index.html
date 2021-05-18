@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +8,9 @@
     <title>Art Pitture</title>
 </head>
 <body>
-
+  <div class="home">
     <nav class="navbar">
-        <div class="brand-title"><a href="#home">Art Pitture</a></div>
+        <div class="brand-title"><a href="index.html">Art Pitture</a></div>
         <a href="#" class="toggle-button">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -19,51 +18,54 @@
         </a>
         <div class="navbar-links">
           <ul>
-            <li><a href="#willkommen">Willkommen</a></li>
-            <li><a href="#arbeiten">Arbeiten</a></li>
-            <li><a href="#uebermich">Über mich</a></li>
+            <li><a data-i18n="navWelcome" href="#willkommen">Willkommen</a></li>
+            <li><a data-i18n="navWorks" href="#arbeiten">Arbeiten</a></li>
+            <li><a data-i18n="navAboutme"href="#uebermich">Über mich</a></li>
+            <li><a id="lang_DE">DE</a></li>
+            <li><a id="lang_IT">IT</a></li>
+            
           </ul>
         </div>
     </nav>
 
-    <div class="home">
-        <img class="home_logo_background" src="images\home.jpeg" >
+    
+    <div class="homebackground"></div>
         <img class="home_logo"src="images\logo_black.png" >
     </div>
 
-    
     <div class="welcometext" id="willkommen">
-      <h1 class="caption">Willkommen bei Art Pitture</h1>
-      <p>Mein Kindheitstraum wurde wahr und meine Leidenschaft zu meinem Beruf</p>
-      <p>Euer Wohlbefinden und die Werterhaltung des Gebäudes ist mir ein großes Anliegen</p>
-      <p>Deswegen gehe ich gerne auf eure Wünsche ein und gebe dem Gebäude nur mein bestes an Material und Arbeitsqualität</p>
+      <h1 data-i18n="welcomeCaption" class="caption">Willkommen bei Art Pitture</h1>
+      <p data-i18n="welcomeText">
+        Euer Wohlbefinden und die Werterhaltung des Gebäudes ist mir ein großes Anliegen</br>
+        Deswegen gehe ich gerne auf eure Wünsche ein und gebe dem Gebäude nur mein bestes an Material und Arbeitsqualität
+      </p>
     </div>
     
     <div class="works" id="arbeiten">
-      <h1 class="caption">Unsere Arbeiten</h1>
+      <h1 data-i18n="worksCaption" class="caption">Unsere Arbeiten</h1>
       <div class="projects">
          <!-- Slideshow Malerarbeiten -->
         <div class="slideshow-container">
           <div class="malerSlides fade">
             <div class="projectdesc">
-              <h1>Malerarbeiten</h1>
-              Arbeit 1
+              <h1 data-i18n="worksPaint.title">Malerarbeiten</h1>
+              <p data-i18n="worksPaint.$0">Innenmalerei</p>
             </div>
             <img src="images\projects\painting\1.jpg" style="width:100%">
           </div>
         
           <div class="malerSlides fade">
             <div class="projectdesc">
-              <h1>Malerarbeiten</h1>
-              Arbeit 2
+              <h1 data-i18n="worksPaint.title">Malerarbeiten</h1>
+              <p data-i18n="worksPaint.$1">Fassadentechnik</p>
             </div>
             <img src="images\projects\painting\2.jpg" style="width:100%">
           </div>
         
           <div class="malerSlides fade">
             <div class="projectdesc">
-              <h1>Malerarbeiten</h1>
-              Arbeit 3
+              <h1 data-i18n="worksPaint.title">Malerarbeiten</h1>
+              <p data-i18n="worksPaint.$2">Schimmelsarnierung</p>
             </div>
             <img src="images\projects\painting\3.jpg" style="width:100%">
           </div>
@@ -82,40 +84,40 @@
         <div class="slideshow-container"> 
           <div class="harzSlides fade">
             <div class="projectdesc">
-              <h1>Harzarbeiten</h1>
-              Arbeit 1
+              <h1 data-i18n="worksResin.title">Harzarbeiten</h1>
+              <p data-i18n="worksResin.$0">Kunstharzbeschichtung</p>
             </div>
             <img src="images\projects\resin\1.jpg" style="width:100%">
           </div>
         
           <div class="harzSlides fade">
             <div class="projectdesc">
-              <h1>Harzarbeiten</h1>
-              Arbeit 2
+              <h1 data-i18n="worksResin.title">Harzarbeiten</h1>
+              <p data-i18n="worksResin.$1">Harzbeschichtung auf Wasserbasis</p>
             </div>
             <img src="images\projects\resin\2.jpg" style="width:100%">
           </div>
         
           <div class="harzSlides fade">
             <div class="projectdesc">
-              <h1>Harzarbeiten</h1>
-              Arbeit 3
+              <h1 data-i18n="worksResin.title">Harzarbeiten</h1>
+              <p data-i18n="worksResin.$2">Selbstnivellierende Harzbeschichtung</p>
             </div>
             <img src="images\projects\resin\3.jpg" style="width:100%">
           </div>
   
           <div class="harzSlides fade">
             <div class="projectdesc">
-              <h1>Harzarbeiten</h1>
-              Arbeit 4
+              <h1 data-i18n="worksResin.title">Harzarbeiten</h1>
+              <p data-i18n="worksResin.$3">Zweikomponenten Harzbeschichtung</p>
             </div>
             <img src="images\projects\resin\4.jpg" style="width:100%">
           </div>
   
           <div class="harzSlides fade">
             <div class="projectdesc">
-              <h1>Harzarbeiten</h1>
-              Arbeit 5
+              <h1 data-i18n="worksResin.title">Harzarbeiten</h1>
+              <p data-i18n="worksResin.$4">Verglaste 3D Tapeten</p>
             </div>
             <img src="images\projects\resin\5.jpg" style="width:100%">
           </div>
@@ -132,28 +134,28 @@
           </div>
         </div>
         <!-- Slideshow Harz Ende -->
-         <!-- Slideshow Dekorazionen -->
+         <!-- Slideshow Dekorationen -->
          <div class="slideshow-container">
           <div class="dekoSlides fade">
             <div class="projectdesc">
-              <h1>Dekorazionen</h1>
-              Arbeit 1
+              <h1 data-i18n="worksDecoration.title">Dekorationsmalerei</h1>
+              <p data-i18n="worksDecoration.$0">Marmorierung</p>
             </div>
             <img src="images\projects\decoration\1.jpg" style="width:100%">
           </div>
         
           <div class="dekoSlides fade">
             <div class="projectdesc">
-              <h1>Dekorazionen</h1>
-              Arbeit 2
+              <h1 data-i18n="worksDecoration.title">Dekorationsmalerei</h1>
+              <p data-i18n="worksDecoration.$1">Stucco Veneziano</p>
             </div>
             <img src="images\projects\decoration\2.jpg" style="width:100%">
           </div>
         
           <div class="dekoSlides fade">
             <div class="projectdesc">
-              <h1>Dekorazionen</h1>
-              Arbeit 3
+              <h1 data-i18n="worksDecoration.title">Dekorationsmalerei</h1>
+              <p data-i18n="worksDecoration.$2">Spachteltechnik</p>
             </div>
             <img src="images\projects\decoration\3.jpg" style="width:100%">
           </div>
@@ -167,29 +169,29 @@
             <span class="dot" id="dekoSlidesdot2" onclick="showSlides(2,2)"></span>
           </div>
         </div>
-        <!-- Slideshow Dekorazionen Ende -->   
+        <!-- Slideshow Dekorationen Ende -->   
          <!-- Slideshow Anderes -->
          <div class="slideshow-container">
           <div class="sonstigeSlides fade">
             <div class="projectdesc">
-              <h1>Sonstiges</h1>
-              Arbeit 1
+              <h1 data-i18n="worksOther.title">Sonstiges</h1>
+              <p data-i18n="worksOther.$0">Lackierung</p>
             </div>
             <img src="images\projects\decoration\1.jpg" style="width:100%">
           </div>
         
           <div class="sonstigeSlides fade">
             <div class="projectdesc">
-              <h1>Sonstiges</h1>
-              Arbeit 2
+              <h1 data-i18n="worksOther.title">Sonstiges</h1>
+              <p data-i18n="worksOther.$1">Außendämmung</p>
             </div>
             <img src="images\projects\decoration\2.jpg" style="width:100%">
           </div>
         
           <div class="sonstigeSlides fade">
             <div class="projectdesc">
-              <h1>Sonstiges</h1>
-              Arbeit 3
+              <h1 data-i18n="worksOther.title">Sonstiges</h1>
+              <p data-i18n="worksOther.$2">Gipskarton</p>
             </div>
             <img src="images\projects\decoration\3.jpg" style="width:100%">
           </div>
@@ -208,22 +210,24 @@
     </div>
 
     <div class="about" id="uebermich">
-      <h1 class="caption">Über mich</h1>
+      <h1 data-i18n="aboutmeCaption" class="caption">Über mich</h1>
       <div class="aboutme">
         <div class="profile">
           <img class="profilepic" src="images\profil_pic.png">
         </div>
         <div class="presentation">
           <h2>Hysa Ardit</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pellentesque justo, vitae porta neque.</p>
-          <p>Phasellus ac purus accumsan, iaculis ipsum id, posuere libero. Aenean vel neque vitae tellus consequat semper a sed mauris.</p>
+          <p data-i18n="aboutmeDescription">
+            Mein Kindheitstraum wurde wahr und meine Leidenschaft zu meinem Beruf!<br>
+            Phasellus ac purus accumsan, iaculis ipsum id, posuere libero. Aenean vel neque vitae tellus consequat semper a sed mauris.
+          </p>
         </div>
         <div class="contact">
           <div class="contactinformation">
-            <p>Tel: +393347310100</p>
-            <p>Mail: info@artpitture.it</p>
-            <p>P.IVA: 03112570217</p>
-            <p>C.F: HYSRDT94T04Z100O</p>
+            <p data-i18n="contact.number">Tel: +393347310100</p>
+            <p data-i18n="contact.mail">Mail: info@artpitture.it</p>
+            <p data-i18n="contact.iva">P.IVA: 03112570217</p>
+            <p data-i18n="contact.cf">C.F: HYSRDT94T04Z100O</p>
           </div>
         </div>
       </div>
@@ -233,5 +237,6 @@
      <p>© Art Pitture 2021</p> 
     </div>
 
+    <script type="module" src="js/language.js"></script>
 </body>
 </html>

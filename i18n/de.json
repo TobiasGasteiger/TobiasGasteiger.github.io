@@ -1,0 +1,42 @@
+{
+    "navWelcome": "Willkommen",
+    "navWorks": "Arbeiten",
+    "navAboutme": "Über mich",
+    "welcomeCaption": "Willkommen bei Art Pitture",
+    "welcomeText": "Euer Wohlbefinden und die Werterhaltung des Gebäudes ist mir ein großes Anliegen<br>Deswegen gehe ich gerne auf eure Wünsche ein und gebe dem Gebäude nur mein bestes an Material und Arbeitsqualität",
+    "worksCaption": "Unsere Arbeiten",
+    "worksPaint": {
+        "title": "Malerarbeiten",
+        "$0": "Innenmalerei",
+        "$1": "Fassadentechnik",
+        "$2": "Schimmelsarnierung"
+      },
+    "worksResin": {
+        "title": "Harzarbeiten",
+        "$0": "Kunstharzbeschichtung",
+        "$1": "Harzbeschichtung auf Wasserbasis",
+        "$2": "Selbstnivellierende Harzbeschichtung",
+        "$3": "Zweikomponenten Harzbeschichtung",
+        "$4": "Verglaste 3D Tapeten"
+      },
+    "worksDecoration": {
+        "title": "Dekorationsmalerei",
+        "$0": "Marmorierung",
+        "$1": "Stucco Veneziano",
+        "$2": "Spachteltechnik"
+      },
+      "worksOther": {
+        "title": "Sonstiges",
+        "$0": "Lackierung",
+        "$1": "Außendämmung",
+        "$2": "Gipskarton"
+      },
+    "aboutmeCaption": "Über mich",
+    "aboutmeDescription": "Mein Kindheitstraum wurde wahr und meine Leidenschaft zu meinem Beruf!<br>Phasellus ac purus accumsan, iaculis ipsum id, posuere libero. Aenean vel neque vitae tellus consequat semper a sed mauris.",
+    "contact": {
+        "number": "Tel: +393347310100",
+        "mail": "Email: info@artpitture.it",
+        "iva": "Mwst.: 03112570217",
+        "cf": "C.F: HYSRDT94T04Z100O"
+      }
+}

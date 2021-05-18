@@ -1,0 +1,42 @@
+{
+    "navWelcome": "Benvenuto",
+    "navWorks": "Lavori",
+    "navAboutme": "Über mich",
+    "welcomeCaption": "Willkommen bei Art Pitture",
+    "welcomeText": "Euer Wohlbefinden und die Werterhaltung des Gebäudes ist mir ein großes Anliegen<br>Deswegen gehe ich gerne auf eure Wünsche ein und gebe dem Gebäude nur mein bestes an Material und Arbeitsqualität",
+    "worksCaption": "Unsere Arbeiten",
+    "worksPaint": {
+        "title": "Pitture",
+        "$0": "Pitture interni",
+        "$1": "Pitture esterni",
+        "$2": "Trattamenti antimuffa"
+      },
+    "worksResin": {
+        "title": "Resina",
+        "$0": "Resina sintetica",
+        "$1": "Resina all' acqua",
+        "$2": "Resina autolivellante",
+        "$3": "Resina bicomponente",
+        "$4": "Carta vetrifivata 3D"
+      },
+    "worksDecoration": {
+        "title": "Decorazioni",
+        "$0": "Marmorino",
+        "$1": "Stucco Veneziano",
+        "$2": "Spatolati"
+      },
+      "worksOther": {
+        "title": "Altro",
+        "$0": "Vernicature",
+        "$1": "Cappotto",
+        "$2": "Cartongesso"
+      },
+    "aboutmeCaption": "Über mich",
+    "aboutmeDescription": "Mein Kindheitstraum wurde wahr und meine Leidenschaft zu meinem Beruf!<br>Phasellus ac purus accumsan, iaculis ipsum id, posuere libero. Aenean vel neque vitae tellus consequat semper a sed mauris.",
+    "contact": {
+        "number": "Tel: +393347310100",
+        "mail": "Mail: info@artpitture.it",
+        "iva": "P.IVA: 03112570217",
+        "cf": "C.F: HYSRDT94T04Z100O"
+      }
+}
