@@ -4,7 +4,7 @@ var translator = new Translator({
   persist: false,
   languages: ["de", "it"],
   defaultLanguage: "it",
-  detectLanguage: true,
+  detectLanguage: false,
   filesLocation: "/i18n"
 });
 

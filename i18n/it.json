@@ -1,39 +1,19 @@
 {
     "navWelcome": "Benvenuto",
     "navWorks": "Lavori",
-    "navAboutme": "Über mich",
-    "welcomeCaption": "Willkommen bei Art Pitture",
-    "welcomeText": "Euer Wohlbefinden und die Werterhaltung des Gebäudes ist mir ein großes Anliegen<br>Deswegen gehe ich gerne auf eure Wünsche ein und gebe dem Gebäude nur mein bestes an Material und Arbeitsqualität",
-    "worksCaption": "Unsere Arbeiten",
-    "worksPaint": {
-        "title": "Pitture",
-        "$0": "Pitture interni",
-        "$1": "Pitture esterni",
-        "$2": "Trattamenti antimuffa"
-      },
-    "worksResin": {
-        "title": "Resina",
-        "$0": "Resina sintetica",
-        "$1": "Resina all' acqua",
-        "$2": "Resina autolivellante",
-        "$3": "Resina bicomponente",
-        "$4": "Carta vetrifivata 3D"
-      },
-    "worksDecoration": {
-        "title": "Decorazioni",
-        "$0": "Marmorino",
-        "$1": "Stucco Veneziano",
-        "$2": "Spatolati"
-      },
-      "worksOther": {
-        "title": "Altro",
-        "$0": "Vernicature",
-        "$1": "Cappotto",
-        "$2": "Cartongesso"
-      },
-    "aboutmeCaption": "Über mich",
-    "aboutmeDescription": "Mein Kindheitstraum wurde wahr und meine Leidenschaft zu meinem Beruf!<br>Phasellus ac purus accumsan, iaculis ipsum id, posuere libero. Aenean vel neque vitae tellus consequat semper a sed mauris.",
+    "navAboutme": "Su di me",
+    "navContact": "Contatto",
+    "welcomeCaption": "Benvenuti da Art Pitture",
+    "welcomeText": "Il vostro benessere e la conservazione del valore dell'immobile è il mio maggiore impegno.<br>Ecco perché sono felice di rispondere ai suoi desideri e dare all'edificio solo il meglio in termini di materiale e qualità di lavoro!",
+    "worksCaption": "I nostri lavori",
+    "worksPaint": "Pitture",
+    "worksResin": "Resina",
+    "worksDecoration": "Decorazioni",
+    "worksOther": "Cartongesso",
+    "aboutmeCaption": "Su di me",
+    "aboutmeDescription": "Il mio sogno d'infanazia si è avverato e la mia passione si è trasformata in lavoro!",
     "contact": {
+        "caption": "Contatto",
         "number": "Tel: +393347310100",
         "mail": "Mail: info@artpitture.it",
         "iva": "P.IVA: 03112570217",

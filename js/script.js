@@ -6,6 +6,10 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
 
+navbarLinks.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+
 //Slides
 var activeSlide = new Array(3);
 var slideId = ["malerSlides","harzSlides", "dekoSlides", "sonstigeSlides"];
